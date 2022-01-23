@@ -10,7 +10,7 @@
     },
     "schema": {
     },
-    "ingress": false,
+    "ingress": true,
     "ingress_port": 4444,
     "ingress_stream": true,
     "ingress_entry": "ui/index.html",

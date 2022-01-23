@@ -19,6 +19,5 @@
     },
     "ports_description": {
         "4444/tcp": "Selenium web port"
-    },
-    "panel_icon": "mdi:console"
+    }
 }

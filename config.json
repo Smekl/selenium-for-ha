@@ -13,11 +13,11 @@
     "host_network": true,
     "ingress": true,
     "ingress_port": 4444,
-    "ingress_stream": true,
+    "ingress_entry": "/ui/index.html",
     "ports": {
-        "4444/tcp": "4444",
+        "4444/tcp": 4444,
     },
     "ports_description": {
-        "4444/tcp": "Selenium web port"
+        "4444/tcp": "Selenium web port",
     }
 }

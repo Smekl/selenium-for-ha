@@ -13,5 +13,5 @@
     "host_network": true,
     "ingress": true,
     "ingress_port": 4444,
-    "webui": "http://[HOST]:[PORT:4444]"
+    "webui": "http://[HOST]:[PORT:4444]/ui/index.html"
 }

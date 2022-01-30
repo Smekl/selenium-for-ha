@@ -1,6 +1,6 @@
 {
     "name": "Selenium",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "slug": "selenium_for_ha",
     "description": "Just a Selenium wrapper for use within HA",
     "arch": ["amd64", "armv7"],
@@ -11,14 +11,14 @@
     "schema": {
     },
     "ingress": true,
-    "ingress_port": 4444,
+    "ingress_port": 8989,
     "ingress_stream": false,
     "host_network": true,
     "ports": {
-        "4444/tcp": 4444
+        "8989/tcp": 8989
     },
     "ports_description": {
-        "4444/tcp": "Selenium web port"
+        "8989/tcp": "Selenium web port"
     },
-    "webui": "http://[HOST]:[PORT:4444]"
+    "webui": "http://[HOST]:[PORT:8989]"
 }

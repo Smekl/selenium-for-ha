@@ -13,6 +13,7 @@
     "ingress": true,
     "ingress_port": 4444,
     "ingress_stream": false,
+    "host_network": true,
     "ports": {
         "4444/tcp": 4444
     },

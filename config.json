@@ -1,6 +1,6 @@
 {
     "name": "Selenium",
-    "version": "0.1.18",
+    "version": "0.1.19",
     "slug": "selenium_for_ha",
     "description": "Just a Selenium wrapper for use within HA",
     "arch": ["amd64", "armv7"],

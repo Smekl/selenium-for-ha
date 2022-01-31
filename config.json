@@ -1,6 +1,6 @@
 {
     "name": "Selenium",
-    "version": "0.1.17",
+    "version": "0.1.18",
     "slug": "selenium_for_ha",
     "description": "Just a Selenium wrapper for use within HA",
     "arch": ["amd64", "armv7"],
@@ -13,7 +13,7 @@
     "ingress": true,
     "ingress_port": 8989,
     "ingress_stream": false,
-    "host_network": true,
+    "host_network": false,
     "ports": {
         "8989/tcp": 8989
     },

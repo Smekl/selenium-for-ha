@@ -22,7 +22,7 @@ function shutdown {
     echo "Shutdown complete"
 }
 
-nginx
+sudo nginx
 
 trap shutdown SIGTERM SIGINT
 wait ${SUPERVISOR_PID}

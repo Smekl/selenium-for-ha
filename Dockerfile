@@ -11,4 +11,4 @@ RUN sudo apt -y install git
 RUN sudo git clone https://github.com/Smekl/selenium-for-ha.git
 RUN sudo cp selenium-for-ha/selenium-server.jar /opt/selenium
 RUN sudo cp selenium-for-ha/server.conf /etc/nginx/conf.d
-RUN sudo nginx
+RUN sudo cp selenium-for-ha/entry_point.sh /opt/bin

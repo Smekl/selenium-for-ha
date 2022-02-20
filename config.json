@@ -1,6 +1,6 @@
 {
     "name": "Selenium",
-    "version": "0.1.25",
+    "version": "0.1.26",
     "slug": "selenium_for_ha",
     "description": "Just a Selenium wrapper for use within HA",
     "arch": ["amd64", "armv7"],
@@ -11,5 +11,8 @@
     "schema": {
     },
     "ingress": true,
-    "ingress_entry": "ui/index.html"
+    "ingress_entry": "ui/index.html",
+    "ports": {
+        "4444/tcp": 4444
+    }
 }
